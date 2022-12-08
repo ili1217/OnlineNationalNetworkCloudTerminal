@@ -1,0 +1,8 @@
+apply from: "${rootDir.path}/gradle/basic.gradle"
+
+android {
+}
+
+dependencies {
+    implementation project(':basic_core')
+}
